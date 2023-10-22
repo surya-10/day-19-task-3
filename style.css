@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cedarville+Cursive&family=Merienda:wght@300;400;500;600;700;800;900&family=Mooli&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+body{
+    background: linear-gradient(to right, #c4c1e0, pink, gray);
+}
+.cont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.data-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 26px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 310px;
+    height: 330px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    gap: 20px;
+    position: relative;
+}
+.head{
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.head p{
+    text-align: center;
+}
+.duration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.child p{
+    text-align: justify;
+}
+.head h2{
+    text-decoration: underline;
+}
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.box:hover h4{
+    text-decoration: underline;
+}
+.child h4{
+    color: rgb(121, 49, 163);
+}
